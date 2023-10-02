@@ -123,3 +123,29 @@ i {
 .icono-eliminar:hover{
     background-color: rgba(255,255,255, 0.523) ;
 }
+
+
+@media screen and (max-width: 400px){
+    h1 {
+        font-size: 25px;
+        margin-top: 5px;
+    }
+    button {
+        height: 30%;
+    }
+    input {
+        width: 90%;
+    }
+    .contenedor {
+        width: 100%;
+        min-height: 400px;
+        padding: 0;
+    }
+    .tarea {
+        font-size: 15px;
+    }
+    .iconos {
+        display: flex;
+        flex-direction: column;
+    }
+}
